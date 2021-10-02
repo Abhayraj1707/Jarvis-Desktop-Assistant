@@ -152,7 +152,7 @@ if __name__ == '__main__':
             speak("Command unknown not programmed for this command")
 
         if 'quit' in quary or 'exit' in quary or 'close' in quary:
-            speak("Thank you  and have a good day ahead..")
+            speak("Thank you  and have a good day ahead.....")
             exit()
 
 
