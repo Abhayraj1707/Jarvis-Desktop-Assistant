@@ -27,9 +27,9 @@ def speak(audio):
 def wishMe():
     hour=int(datetime.datetime.now().hour)
     if hour>0 and hour<12:
-        speak("Good Morning Master!")
+        speak("Good Morning Master Abhay Raj!")
     elif hour>=12 and hour<18:
-        speak("Good Aftrnoon Master!")
+        speak("Good Aftrnoon Master Abhay Raj!")
     else:
         speak("Good Evening master!")
     speak("Hi This is Luna. Please tell me how may i help you")
@@ -50,7 +50,7 @@ def takeCommand():
 
         except Exception as e:
             print(e)
-            print("say that again please i did not recognize...")
+            print("say that again please i did not recognize your voice....")
             speak("say that again please i did not recognize your voice..")
             return "None"
         return quary
@@ -135,10 +135,10 @@ if __name__ == '__main__':
                 speak("Email has been sent!")
             except Exception as e:
                 print(e)
-                speak("sorry master i am not able to send this email right now..please try after sometime")
+                speak("sorry Mr Abhay i am not able to send this email right now..please try this after sometime")
         elif ' who are you' in quary:
             print("I am your AI assistant Luna made by Mr. Abhay" )
-            speak("I am your assistant Luna  made by Mr Abhay")
+            speak("I am your assistant Luna Tell me Anything you want  made by Mr Abhay")
 
 
         elif 'news' in quary or 'headlines' in quary:
@@ -149,10 +149,10 @@ if __name__ == '__main__':
         elif 'awesome' in quary or 'wow' in quary or 'amazing' in quary or 'wonderful' in quary:
             speak("Thank you sir, i am here for you")
         else:
-            speak("Command unknpwn not programmed for this command")
+            speak("Command unknown not programmed for this command")
 
         if 'quit' in quary or 'exit' in quary or 'close' in quary:
-            speak("Thank you,have a good day ahead..")
+            speak("Thank you ,have a good day ahead..")
             exit()
 
 
