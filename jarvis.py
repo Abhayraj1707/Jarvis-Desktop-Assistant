@@ -135,9 +135,9 @@ if __name__ == '__main__':
                 speak("Email has been sent!")
             except Exception as e:
                 print(e)
-                speak("sorry Mr Abhay i am not able to send this email right now..please try this after sometime")
+                speak("sorry Mr Abhay i am not able to send this mail right now..please try this after sometime")
         elif ' who are you' in quary:
-            print("I am your AI assistant Luna made by Mr. Abhay" )
+            print("I am your AI assistant Luna made by Mr. Abhay raj" )
             speak("I am your assistant Luna Tell me Anything you want  made by Mr Abhay")
 
 
@@ -152,7 +152,7 @@ if __name__ == '__main__':
             speak("Command unknown not programmed for this command")
 
         if 'quit' in quary or 'exit' in quary or 'close' in quary:
-            speak("Thank you ,have a good day ahead..")
+            speak("Thank you  and have a good day ahead..")
             exit()
 
 
